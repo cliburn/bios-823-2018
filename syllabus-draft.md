@@ -1,4 +1,44 @@
-# Syllabus
+# Syllabus for BIOS 823
+
+BIOS 823 (Biomedical Big Data) explains what Big Data is, the types of Big Data often encountered in medical science (free text, time series, networks, genomic sequences, and images), and common strategies for the processing and analysis of Big Data. The core topics are **data** management (use of relational and NoSQL databases), **algorithms** (the mathematics and ideas behind common applications such as dimension reduction, clustering, collaborative filtering, classification and regression), **applications** (use of algorithms on text, time series, genomic, network and image data, including basic deep learning examples), and computational strategies to improve **performance** (code profiling, native code compilation, multi-core parallelism, distributed computing, and clout platforms).
+
+## Learning objectives
+
+After this course, the student will be able to
+
+- [ ] Manage large data collections
+  - [ ] Match data collections to appropriate SQL and NoSQL database types
+  - [ ] Perform ETL operations to populate the database
+  - [ ] Perform queries from the database
+  - [ ] Convert data from one format to another
+- [ ] Perform computationally intensive numerical operations
+  - [ ] Solving $Ax = b$
+  - [ ] Matrix factorization (solve linear systems, change of basis, projection and dimension reduction, low rank approximation and imputation)
+  - [ ] Large-scale optimization with gradient descent algorithms
+  - [ ] Apply numerical algorithms
+- [ ] Decrease run-time by compiling to native code
+  - [ ] Profile code to identify bottlenecks
+  - [ ] Benchmark code for comparative evaluation
+  - [ ] Apply JIT and AOT compilation
+  - [ ] Wrap C++ code
+- [ ] Use threads and processes for multi-core parallelization
+  - [ ] Use parallelization in JIT and AOT code
+  - [ ] Run parallel code interactively with `ipyparallel`
+  - [ ] Using asynchronous programming to parallelize latency bound jobs
+  - [ ] Using processes to parallelize compute bound jobs
+- [ ] Perform big data computations on a distributed cluster
+  - [ ] Understand the distributed computing ecosystem
+  - [ ] Manipulate Spark RDDs and DataFrames
+  - [ ] Use Spark MLLib for machine learning
+  - [ ] Use Spark for streaming analysis
+- [ ] Build and run deep learning pipelines
+  - [ ] Explain concepts of deep learning
+  - [ ] Build a CNN for image classification
+  - [ ] Improve model performance
+- [ ] Cross-cutting skills
+  - [ ] Construct reproducible analysis pipelines
+  - [ ] Use remote computing clusters (`slurm` on Duke Compute Cluster)
+  - [ ] Use cloud computing platforms (AWS, GCE, Azure)
 
 ## S01 Data types, storage and retrieval
 
@@ -21,6 +61,7 @@
   - Document
   - Graph
   - Column family
+- Example: Using `odo` to convert data types
 
 ## S02 Relational databases
 
