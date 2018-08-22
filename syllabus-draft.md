@@ -279,14 +279,72 @@ After this course, the student will be able to
 
 ## S20 Asynchronous programming
 
-- Why asynchronous?
+- Why asynchronous programming?
+- Latency and resource starvation
+- I/O and computation bottlenecks
+- Generators and Coroutines
+- Coroutines and tasks
+- Sending messages to coroutines, threads and processes
+- The event loop
+- `async` and `await`
+- Example: web scraping with `asyncio`
 
 ## S21 Distributed computing and Hadoop/Spark
 
-## S22 Data Frames and Spark SQL
+- Why distributed computing?
+- HDFS
+- YARN and other resource managers
+- Spark, MapReduce and other compute engines
+- The Spark context
+- The data flow DAG
+- Resilient Distributed Datasets (RDD)
+- Key-value RDDs
+- Creating and saving RDDs
+- Actions and Transforms
+- Caching RDDs
+- Accumulators and Broadcast variables
+- Using UDFs (User Defined Functions)
+- Example: Hello, word count!
+
+## S22 DataFrame and Spark SQL
+
+- The Spark session
+- Creating and saving a DataFrame
+- DataFrame operations
+- DataFrame and RDD conversions
+- Using SQL to query a DataFrame
+- Caching a DataFrame
+- Using vectorized UDFs
 
 ## S23 Machine Learning with Spark MLLib
 
+- Basic statistics with Spark
+- Pipelines
+- Data processing
+- Clustering
+- Classification and regression
+- Collaborative filtering
+- Model selection
+
 ## S24 Spark Streaming
 
-## S25 Cloud computing platforms
+- Streaming concepts
+- StreamingContext
+- Discretized Streams
+- Sources of data
+- Transforms
+- Checkpoints
+- DataFrame operations
+- Machine learning operations
+
+## S25 Cloud and cluster computing 
+
+- The Duke cluster
+- Using `slurm` to run a job
+- Why cloud computing?
+- AWS, Azure and Google compute
+- Setting up account
+- Running a Docker container
+- Running a virtual machine
+- Running a Hadoop cluster
+
