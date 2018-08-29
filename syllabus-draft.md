@@ -6,41 +6,41 @@ BIOS 823 (Biomedical Big Data) explains what Big Data is, the types of Big Data 
 
 After this course, the student will be able to
 
-- [ ] Manage large data collections
-  - [ ] Match data collections to appropriate SQL and NoSQL database types
-  - [ ] Perform ETL operations to populate the database
-  - [ ] Perform queries from the database
-  - [ ] Convert data from one format to another
-- [ ] Perform computationally intensive numerical operations
-  - [ ] Solving $Ax = b$
-  - [ ] Matrix factorization (solve linear systems, change of basis, projection and dimension reduction, low rank approximation and imputation)
-  - [ ] Large-scale optimization with gradient descent algorithms
-  - [ ] Apply numerical algorithms
-- [ ] Decrease run-time by compiling to native code
-  - [ ] Profile code to identify bottlenecks
-  - [ ] Benchmark code for comparative evaluation
-  - [ ] Apply JIT and AOT compilation
-  - [ ] Wrap C++ code
-- [ ] Use threads and processes for multi-core parallelization
-  - [ ] Use parallelization in JIT and AOT code
-  - [ ] Run parallel code interactively with `ipyparallel`
-  - [ ] Using asynchronous programming to parallelize latency bound jobs
-  - [ ] Using processes to parallelize compute bound jobs
-- [ ] Perform big data computations on a distributed cluster
-  - [ ] Understand the distributed computing ecosystem
-  - [ ] Manipulate Spark RDDs and DataFrames
-  - [ ] Use Spark MLLib for machine learning
-  - [ ] Use Spark for streaming analysis
-- [ ] Build and run deep learning pipelines
-  - [ ] Explain concepts of deep learning
-  - [ ] Build a CNN for image classification
-  - [ ] Improve model performance
-- [ ] Cross-cutting skills
-  - [ ] Construct reproducible analysis pipelines
-  - [ ] Use remote computing clusters (`slurm` on Duke Compute Cluster)
-  - [ ] Use cloud computing platforms (AWS, GCE, Azure)
+- Manage large data collections
+  - Match data collections to appropriate SQL and NoSQL database types
+  - Perform ETL operations to populate the database
+  - Perform queries from the database
+  - Convert data from one format to another
+- Perform computationally intensive numerical operations
+  - Solving $Ax = b$
+  - Matrix factorization (solve linear systems, change of basis, projection and dimension reduction, low rank approximation and imputation)
+  - Large-scale optimization with gradient descent algorithms
+  - Apply numerical algorithms
+- Decrease run-time by compiling to native code
+  - Profile code to identify bottlenecks
+  - Benchmark code for comparative evaluation
+  - Apply JIT and AOT compilation
+  - Wrap C++ code
+- Use threads and processes for multi-core parallelization
+  - Use parallelization in JIT and AOT code
+  - Run parallel code interactively with `ipyparallel`
+  - Using asynchronous programming to parallelize latency bound jobs
+  - Using processes to parallelize compute bound jobs
+- Perform big data computations on a distributed cluster
+  - Understand the distributed computing ecosystem
+  - Manipulate Spark RDDs and DataFrames
+  - Use Spark MLLib for machine learning
+  - Use Spark for streaming analysis
+- Build and run deep learning pipelines
+  - Explain concepts of deep learning
+  - Build a CNN for image classification
+  - Improve model performance
+- Cross-cutting skills
+  - Construct reproducible analysis pipelines
+  - Use remote computing clusters (`slurm` on Duke Compute Cluster)
+  - Use cloud computing platforms (AWS, GCE, Azure)
 
-## S01 Data types, storage and retrieval
+## S01 Data types, storage and retrieval (27-08-2018)
 
 - Skills for data scientists
 - Tools for data scientists
@@ -63,7 +63,7 @@ After this course, the student will be able to
   - Column family
 - Example: Using `odo` to convert data types
 
-## S02 Relational databases
+## S02 Relational databases (29-08-2018)
 
 - Relational database management systems (RDBMS)
   - Storage
@@ -95,7 +95,7 @@ After this course, the student will be able to
     - Existence of primary key
     - Check all columns belong to table
 
-## S03 Using SQL
+## S03 Using SQL (05-09-2018)
 
 - Accessing databases
   - Using the CLI
@@ -120,7 +120,7 @@ After this course, the student will be able to
   - Sub-queries
   - Window functions  
 
-## S04 A tour of NoSQL databases
+## S04 A tour of NoSQL databases (10-09-2018)
 
 - Why NoSQL?
 - BASE
