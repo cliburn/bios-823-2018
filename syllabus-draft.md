@@ -95,7 +95,7 @@ After this course, the student will be able to
     - Existence of primary key
     - Check all columns belong to table
 
-## S03 Using SQL (05-09-2018)
+## S03 Using SQL (03-09-2018)
 
 - Accessing databases
   - Using the CLI
@@ -120,7 +120,7 @@ After this course, the student will be able to
   - Sub-queries
   - Window functions  
 
-## S04 A tour of NoSQL databases (10-09-2018)
+## S04 A tour of NoSQL databases (05-09-2018)
 
 - Why NoSQL?
 - BASE
@@ -141,7 +141,7 @@ After this course, the student will be able to
   - Example using `hbase`  
 - Choosing between database types
 
-## S05 Solving linear systems
+## S05 Solving linear systems (10-09-2018)
 
 - Why linear systems are important even if the world is nonlinear
 - System of linear equations in matrix notation
@@ -151,7 +151,7 @@ After this course, the student will be able to
 - Normal solution for linear least squares
 - Example: Fitting a polynomial function to data
 
-## S06 Dimension reduction
+## S06 Dimension reduction (12-09-2018)
 
 - Why dimension reduction?
 - Manifolds
