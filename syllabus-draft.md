@@ -160,15 +160,13 @@ After this course, the student will be able to
 
 - Why dimension reduction?
 - Manifolds
-- PCA and factor analysis
+- Manifold learning
 - t-SNE and friends
 - Example: Visualizing single cell data
 
 ## S08 Clustering and anomaly detection
 
 - Why clustering?
-- Hierarchical clustering and the distance matrix
-- k-means
 - Gaussian mixture Model
 - Model selection for number of clusters
 - Example: Anomaly detection by clustering
@@ -247,33 +245,14 @@ After this course, the student will be able to
   - Example: Using `networkx` to find community structure
 - Using graph algorithms in `neo4j`
 
-## S17 Deep learning primer
-
-- A single unit
-- Activation functions
-- Layers and notation
-- Forward propagation
-- Back-propagation
-- Automatic differentiation
-- Cost function
-- Stochastic and mini-batch gradient descent
-- Regularization
-- Deep Learning zoo (Dense, CNN, RNN, GAN)
-
-## S18 Deep learning applications
-
-- Classifying Fashion MNIST
-- Inspecting features in layers
-- Using `Auto-Keras`
-
-## S19 JIT and AOT compilation
+## S17 JIT and AOT compilation
 
 - Interpreted and compiled code
 - Using `numba`
 - Using `cython`
 - Using `pybind11`
 
-## S20 Multi-core parallelism
+## S18 Multi-core parallelism
 
 - Why mullit-core?
 - Amdahl and Gustaffson laws
@@ -283,7 +262,7 @@ After this course, the student will be able to
 - Using `concurrent.futures`
 - Using `multiprocessing`
 
-## S21 Asynchronous programming
+## S19 Asynchronous programming
 
 - Why asynchronous programming?
 - Latency and resource starvation
@@ -295,7 +274,7 @@ After this course, the student will be able to
 - `async` and `await`
 - Example: web scraping with `asyncio`
 
-## S22 Distributed computing and Hadoop/Spark
+## S20 Distributed computing and Hadoop/Spark
 
 - Why distributed computing?
 - HDFS
@@ -312,7 +291,7 @@ After this course, the student will be able to
 - Using UDFs (User Defined Functions)
 - Example: Hello, word count!
 
-## S23 DataFrame and Spark SQL
+## S21 DataFrame and Spark SQL
 
 - The Spark session
 - Creating and saving a DataFrame
@@ -325,7 +304,7 @@ After this course, the student will be able to
   - Columnar data stores `arrow`, `feather`, `parquet`
   - Example using `hbase`  and `Impala`
 
-## S24 Machine Learning with Spark MLLib
+## S22 Machine Learning with Spark MLLib
 
 - Basic statistics with Spark
 - Pipelines
@@ -335,7 +314,7 @@ After this course, the student will be able to
 - Collaborative filtering
 - Model selection
 
-## S25 Spark Streaming
+## S23 Spark Streaming
 
 - Streaming concepts
 - StreamingContext
@@ -346,7 +325,7 @@ After this course, the student will be able to
 - DataFrame operations
 - Machine learning operations
 
-## S26 Cloud and cluster computing 
+## S24 Cloud and cluster computing 
 
 - The Duke cluster
 - Using `slurm` to run a job
