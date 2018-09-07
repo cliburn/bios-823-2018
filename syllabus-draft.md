@@ -146,7 +146,7 @@ After this course, the student will be able to
   - Using `gremlin`
 - Choosing between database types
 
-## S06 Solving linear systems computatinally (12-09-2018)
+## S06 Solving linear systems computationally (12-09-2018)
 
 - Why linear systems are important even if the world is nonlinear
 - System of linear equations in matrix notation
