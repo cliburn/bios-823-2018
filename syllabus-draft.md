@@ -120,10 +120,10 @@ After this course, the student will be able to
   - Sub-queries
   - Window functions  
 
-## S04 A tour of NoSQL databases (05-09-2018)
+## S04 NoSQL databases 1 (05-09-2018)
 
 - Why NoSQL?
-- BASE
+- BASE (cf ACID)
   - Basically Available
   - Soft state
   - Eventual consistency
@@ -133,15 +133,20 @@ After this course, the student will be able to
 - Document
   - JSON documents
   - Example using `mongodb`
-- Graph
+
+## S05 NoSQL databases 2 (10-09-2018)
+
+- Graphs
+  - Basic ideas - nodes, edges, directed, undirected, weights, flows
   - Adjacency matrix, adjacency list  
-  - Example using `neo4j`
-- Column family
-  - Columnar data stores `arrow`, `feather`, `parquet`
-  - Example using `hbase`  
+  - Sparse matrix representations
+  - Graph traversal
+- Using `neo4j`
+  - The `cypher` query languge
+  - Using `gremlin`
 - Choosing between database types
 
-## S05 Solving linear systems (10-09-2018)
+## S06 Solving linear systems computatinally (12-09-2018)
 
 - Why linear systems are important even if the world is nonlinear
 - System of linear equations in matrix notation
@@ -151,7 +156,7 @@ After this course, the student will be able to
 - Normal solution for linear least squares
 - Example: Fitting a polynomial function to data
 
-## S06 Dimension reduction (12-09-2018)
+## S07 Dimension reduction (17-09-2018)
 
 - Why dimension reduction?
 - Manifolds
@@ -159,7 +164,7 @@ After this course, the student will be able to
 - t-SNE and friends
 - Example: Visualizing single cell data
 
-## S07 Clustering and anomaly detection
+## S08 Clustering and anomaly detection
 
 - Why clustering?
 - Hierarchical clustering and the distance matrix
@@ -168,14 +173,14 @@ After this course, the student will be able to
 - Model selection for number of clusters
 - Example: Anomaly detection by clustering
 
-## S08 Recommender systems
+## S09 Recommender systems
 
 - What is a recommender (collaborative filtering) system?
 - SVD, linear algebra and the fundamental subspaces
 - Alternating least squares (ALS)
 - Example: MovieLens recommendations
 
-## S09 Model fitting and optimization
+## S10 Model fitting and optimization
 
 - Review of calculus
 - Univariate and multivariate optimization
@@ -184,7 +189,7 @@ After this course, the student will be able to
 - Constrained optimization
 - Example: Graph layout using a spring algorithm
 
-## S10 Classification and regression
+## S11 Classification and regression
 
 - Labeled data and supervised learning
 - Under-fitting and over-fitting (Bias-variance trade-off)
@@ -193,7 +198,7 @@ After this course, the student will be able to
 - A pipeline for supervised learning
 - Example: Using `sklearn` to classify MNIST digits
 
-## S11 Analysis of text data
+## S12 Analysis of text data
 
 - Natural language processing (NLP)
 - Bag of words
@@ -203,7 +208,7 @@ After this course, the student will be able to
 - Example Using `nltk` to extract named entities
 - Example: Using `gensim` to classify newsgroups
 
-## S12 Analysis of time series data
+## S13 Analysis of time series data
 
 - Smoothing with exponential weighted averages
 - Scan statistics
@@ -215,14 +220,14 @@ After this course, the student will be able to
 - Forecasting with ARIMA models
 - Example: Using `prophet` for time series decomposition
 
-## S13 Analysis of genomics data
+## S14 Analysis of genomics data
 
 - Simple DNA processing
 - Motif finding
 - Sequence alignment
 - Example: Using `biopython` for genomic data bioinformatics
 
-## S14 Analysis of image data
+## S15 Analysis of image data
 
 - Image formats
 - Image to array
@@ -231,7 +236,7 @@ After this course, the student will be able to
 - Image segmentation
 - Example: Usng `skimage` for color separation of histology images
 
-## S15 Analysis of network data
+## S16 Analysis of network data
 
 - Graphs and networks
 - Classic algorithms
@@ -240,8 +245,9 @@ After this course, the student will be able to
   - Ford–Fulkerson algorithm
   - Graph laplacian
   - Example: Using `networkx` to find community structure
+- Using graph algorithms in `neo4j`
 
-## S16 Deep learning primer
+## S17 Deep learning primer
 
 - A single unit
 - Activation functions
@@ -254,20 +260,20 @@ After this course, the student will be able to
 - Regularization
 - Deep Learning zoo (Dense, CNN, RNN, GAN)
 
-## S17 Deep learning applications
+## S18 Deep learning applications
 
 - Classifying Fashion MNIST
 - Inspecting features in layers
 - Using `Auto-Keras`
 
-## S18 JIT and AOT compilation
+## S19 JIT and AOT compilation
 
 - Interpreted and compiled code
 - Using `numba`
 - Using `cython`
 - Using `pybind11`
 
-## S19 Multi-core parallelism
+## S20 Multi-core parallelism
 
 - Why mullit-core?
 - Amdahl and Gustaffson laws
@@ -277,7 +283,7 @@ After this course, the student will be able to
 - Using `concurrent.futures`
 - Using `multiprocessing`
 
-## S20 Asynchronous programming
+## S21 Asynchronous programming
 
 - Why asynchronous programming?
 - Latency and resource starvation
@@ -289,7 +295,7 @@ After this course, the student will be able to
 - `async` and `await`
 - Example: web scraping with `asyncio`
 
-## S21 Distributed computing and Hadoop/Spark
+## S22 Distributed computing and Hadoop/Spark
 
 - Why distributed computing?
 - HDFS
@@ -306,7 +312,7 @@ After this course, the student will be able to
 - Using UDFs (User Defined Functions)
 - Example: Hello, word count!
 
-## S22 DataFrame and Spark SQL
+## S23 DataFrame and Spark SQL
 
 - The Spark session
 - Creating and saving a DataFrame
@@ -315,8 +321,11 @@ After this course, the student will be able to
 - Using SQL to query a DataFrame
 - Caching a DataFrame
 - Using vectorized UDFs
+- Column family databases 
+  - Columnar data stores `arrow`, `feather`, `parquet`
+  - Example using `hbase`  and `Impala`
 
-## S23 Machine Learning with Spark MLLib
+## S24 Machine Learning with Spark MLLib
 
 - Basic statistics with Spark
 - Pipelines
@@ -326,7 +335,7 @@ After this course, the student will be able to
 - Collaborative filtering
 - Model selection
 
-## S24 Spark Streaming
+## S25 Spark Streaming
 
 - Streaming concepts
 - StreamingContext
@@ -337,7 +346,7 @@ After this course, the student will be able to
 - DataFrame operations
 - Machine learning operations
 
-## S25 Cloud and cluster computing 
+## S26 Cloud and cluster computing 
 
 - The Duke cluster
 - Using `slurm` to run a job
