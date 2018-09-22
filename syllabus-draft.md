@@ -164,14 +164,14 @@ After this course, the student will be able to
 - t-SNE and friends
 - Example: Visualizing single cell data
 
-## S08 Clustering and anomaly detection
+## S08 Clustering and anomaly detection (24-09-2018)
 
 - Why clustering?
 - Gaussian mixture Model
 - Model selection for number of clusters
 - Example: Anomaly detection by clustering
 
-## S09 Recommender systems
+## S09 Recommender systems (26-09-2018)
 
 - What is a recommender (collaborative filtering) system?
 - SVD, linear algebra and the fundamental subspaces
