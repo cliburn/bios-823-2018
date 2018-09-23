@@ -1,5 +1,13 @@
 *~
 *.py
+*.gz
+*.zip
+.DS_Store
+
+data/creditcard.csv
+data/WPBC/
+
+Untitled.*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
