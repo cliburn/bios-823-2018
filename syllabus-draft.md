@@ -179,6 +179,17 @@ After this course, the student will be able to
 - Model selection
 - Cluster alignment
 
+## S10 SVD (01-10-2018)
+
+- Change of basis
+- Spectral decomposition
+- Derviing the SVD factorization
+- Bassis for fundamental spaces 
+- Geometry of PCA (rotate, scale, rotate)
+- Marrix norms and rank-k approximations
+- Condition number
+- Comparing PCA via eigendecomposition and SVD
+
 ## S?? Recommender systems (?)
 
 - What is a recommender (collaborative filtering) system?
