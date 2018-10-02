@@ -190,14 +190,15 @@ After this course, the student will be able to
 - Condition number
 - Comparing PCA via eigendecomposition and SVD
 
-## S?? Recommender systems (?)
+## S11 SVD Applications (03-10-2018)
 
-- What is a recommender (collaborative filtering) system?
-- SVD, linear algebra and the fundamental subspaces
-- Alternating least squares (ALS)
-- Example: MovieLens recommendations
+- Reconstruction
+- PCA
+- Compression
+- Denoising
+- Recommender system
 
-## S10 Model fitting and optimization
+## S12 Model fitting and optimization
 
 - Review of calculus
 - Univariate and multivariate optimization
@@ -206,7 +207,7 @@ After this course, the student will be able to
 - Constrained optimization
 - Example: Graph layout using a spring algorithm
 
-## S11 Classification and regression
+## S13 Classification and regression
 
 - Labeled data and supervised learning
 - Under-fitting and over-fitting (Bias-variance trade-off)
@@ -215,7 +216,7 @@ After this course, the student will be able to
 - A pipeline for supervised learning
 - Example: Using `sklearn` to classify MNIST digits
 
-## S12 Analysis of text data
+## S14 Analysis of text data
 
 - Natural language processing (NLP)
 - Bag of words
@@ -225,7 +226,7 @@ After this course, the student will be able to
 - Example Using `nltk` to extract named entities
 - Example: Using `gensim` to classify newsgroups
 
-## S13 Analysis of time series data
+## S15 Analysis of time series data
 
 - Smoothing with exponential weighted averages
 - Scan statistics
@@ -237,14 +238,14 @@ After this course, the student will be able to
 - Forecasting with ARIMA models
 - Example: Using `prophet` for time series decomposition
 
-## S14 Analysis of genomics data
+## S16 Analysis of genomics data
 
 - Simple DNA processing
 - Motif finding
 - Sequence alignment
 - Example: Using `biopython` for genomic data bioinformatics
 
-## S15 Analysis of image data
+## S17 Analysis of image data
 
 - Image formats
 - Image to array
@@ -253,7 +254,7 @@ After this course, the student will be able to
 - Image segmentation
 - Example: Usng `skimage` for color separation of histology images
 
-## S16 Analysis of network data
+## S18 Analysis of network data
 
 - Graphs and networks
 - Classic algorithms
@@ -264,14 +265,14 @@ After this course, the student will be able to
   - Example: Using `networkx` to find community structure
 - Using graph algorithms in `neo4j`
 
-## S17 JIT and AOT compilation
+## S19 JIT and AOT compilation
 
 - Interpreted and compiled code
 - Using `numba`
 - Using `cython`
 - Using `pybind11`
 
-## S18 Multi-core parallelism
+## S20 Multi-core parallelism
 
 - Why mullit-core?
 - Amdahl and Gustaffson laws
@@ -281,7 +282,7 @@ After this course, the student will be able to
 - Using `concurrent.futures`
 - Using `multiprocessing`
 
-## S19 Asynchronous programming
+## S21 Asynchronous programming
 
 - Why asynchronous programming?
 - Latency and resource starvation
@@ -293,7 +294,7 @@ After this course, the student will be able to
 - `async` and `await`
 - Example: web scraping with `asyncio`
 
-## S20 Distributed computing and Hadoop/Spark
+## S22 Distributed computing and Hadoop/Spark
 
 - Why distributed computing?
 - HDFS
@@ -310,7 +311,7 @@ After this course, the student will be able to
 - Using UDFs (User Defined Functions)
 - Example: Hello, word count!
 
-## S21 DataFrame and Spark SQL
+## S23 DataFrame and Spark SQL
 
 - The Spark session
 - Creating and saving a DataFrame
@@ -323,7 +324,7 @@ After this course, the student will be able to
   - Columnar data stores `arrow`, `feather`, `parquet`
   - Example using `hbase`  and `Impala`
 
-## S22 Machine Learning with Spark MLLib
+## S24 Machine Learning with Spark MLLib
 
 - Basic statistics with Spark
 - Pipelines
@@ -333,7 +334,7 @@ After this course, the student will be able to
 - Collaborative filtering
 - Model selection
 
-## S23 Spark Streaming
+## S25 Spark Streaming
 
 - Streaming concepts
 - StreamingContext
