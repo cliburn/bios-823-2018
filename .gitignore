@@ -9,6 +9,8 @@ data/WPBC/
 data/mnist_train.csv
 data/mnist_train.csv
 
+_build
+
 Untitled.*
 
 # Byte-compiled / optimized / DLL files
