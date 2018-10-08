@@ -198,16 +198,15 @@ After this course, the student will be able to
 - Denoising
 - Recommender system
 
-## S12 Model fitting and optimization
+## S12 Model fitting and optimization (10-10-2018)
 
 - Review of calculus
 - Univariate and multivariate optimization
 - Gradient descent methods
 - Newton and quasi-Newton methods
-- Constrained optimization
-- Example: Graph layout using a spring algorithm
+- Lagrange multipliers and constrained optimization
 
-## S13 Classification and regression
+## S13 Classification and regression (15-10-2018)
 
 - Labeled data and supervised learning
 - Under-fitting and over-fitting (Bias-variance trade-off)
