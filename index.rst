@@ -50,6 +50,7 @@ BIOS823: Biomedical Big Data
    Z03_Linear_Algebra_Review.ipynb
    Z04_Unsupervised_Learning.ipynb
    Z05_SVD.ipynb
+   Z06_Optimization.ipynb
 
 Indices and tables
 ==================
