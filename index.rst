@@ -33,11 +33,13 @@ BIOS823: Biomedical Big Data
    S13A_Root_Finding.ipynb
    S13B_Optimization.ipynb
    S13C_Optimization_Algorithms.ipynb
-   S13D_Optimization_Examples.ipynb
+   S13D1_Optimization_Examples.ipynb
+   S13D2_Optimization_Examples.ipynb
    S13E_Optimization_Line_Search.ipynb
    S13F_Least_Squares_Optimization.ipynb
    S13G_Gradient_Descent_Optimization.ipynb
    S13H_Constrained_Optimization.ipynb
+   S14_Supervised_Learning.ipynb
    S99_Nearest_Neighbors.ipynb
 
 .. toctree::
@@ -51,6 +53,7 @@ BIOS823: Biomedical Big Data
    Z04_Unsupervised_Learning.ipynb
    Z05_SVD.ipynb
    Z06_Optimization.ipynb
+   Z07_Supervised_Learning.ipynb
 
 Indices and tables
 ==================
