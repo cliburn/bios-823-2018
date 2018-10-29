@@ -40,7 +40,21 @@ BIOS823: Biomedical Big Data
    S13G_Gradient_Descent_Optimization.ipynb
    S13H_Constrained_Optimization.ipynb
    S14_Supervised_Learning.ipynb
-   S99_Nearest_Neighbors.ipynb
+   S15A_C.ipynb
+   S15B_CPP.ipynb
+   S15C_Native_Code_Compilation.ipynb
+   S15D_Numba.ipynb
+   S15E_Cython.ipynb
+   S15F_PyBind11.ipynb
+   S15G_Packaging.ipynb
+   S16A_Parallel_Programming_Introduction.ipynb
+   S16B_Multicore_Parallelism.ipynb
+   S16C_Parallel_Programming_Extended_Example.ipynb
+   S16D_IPyParallel.ipynb
+   S16E_Scalable_Data_Analytics.ipynb
+   S16F_Data_Sketches.ipynb
+   S16_Performance_Summary.ipynb
+   S17A_Text_Analysis_1.ipynb
 
 .. toctree::
    :maxdepth: 2
@@ -54,6 +68,7 @@ BIOS823: Biomedical Big Data
    Z05_SVD.ipynb
    Z06_Optimization.ipynb
    Z07_Supervised_Learning.ipynb
+   Z09_Performance.ipynb
 
 Indices and tables
 ==================
