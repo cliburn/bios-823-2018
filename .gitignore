@@ -3,6 +3,7 @@
 *.gz
 *.zip
 .DS_Store
+newsgroup_w2v.model
 
 *.cpp.cppimporthash
 *.cpp
