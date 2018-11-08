@@ -56,6 +56,8 @@ BIOS823: Biomedical Big Data
    S16_Performance_Summary.ipynb
    S17A_Text_Analysis_1.ipynb
    S17B_Text_Analysis_2.ipynb
+   S18A_Time_Series_Manipulation_Smoothing.ipynb
+   S18B_Time_Series_Modeling.ipynb
 
 .. toctree::
    :maxdepth: 2
@@ -71,6 +73,7 @@ BIOS823: Biomedical Big Data
    Z07_Supervised_Learning.ipynb
    Z08_Performance.ipynb
    Z09_Review.ipynb
+   Z10_Review.ipynb
 
 Indices and tables
 ==================
